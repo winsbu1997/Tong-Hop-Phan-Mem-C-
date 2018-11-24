@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E737E27-4B07-42A3-B22D-F3BBDB0D1D2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyNhanSu</RootNamespace>
+    <AssemblyName>QuanLyNhanSu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\BangLuongCtrlH.cs" />
+    <Compile Include="Control\ChucVuCtrlL.cs" />
+    <Compile Include="Control\ChucVuCtrlTr.cs" />
+    <Compile Include="Control\HeSoLuongCtrl.cs" />
+    <Compile Include="Control\HopDongCtrl.cs" />
+    <Compile Include="Control\HopDongCtrlTr.cs" />
+    <Compile Include="Control\KyLuatCtrlTh.cs" />
+    <Compile Include="Control\NhanVienCtrlTr.cs" />
+    <Compile Include="Control\PhongBanCtrlL.cs" />
+    <Compile Include="Control\PhongBanCtrlTr.cs" />
+    <Compile Include="Model\BangLuongModH.cs" />
+    <Compile Include="Model\ChucVuModTr.cs" />
+    <Compile Include="Model\ChucVuMolL.cs" />
+    <Compile Include="Model\ConectToSQL_Datvd.cs" />
+    <Compile Include="Model\ConnectToSQLHoang.cs" />
+    <Compile Include="Control\KhenThuongCtrlTH.cs" />
+    <Compile Include="Model\ConnectToSQLTH.cs" />
+    <Compile Include="Model\ConnectToSQL_L.cs" />
+    <Compile Include="Model\ConnetctToSQLTr.cs" />
+    <Compile Include="Model\HeSoLuongMod.cs" />
+    <Compile Include="Model\HopDongMod.cs" />
+    <Compile Include="Model\HopDongModTr.cs" />
+    <Compile Include="Model\KhenThuongModTH.cs" />
+    <Compile Include="Model\KyLuatModTH.cs" />
+    <Compile Include="Model\NhanVienModTr.cs" />
+    <Compile Include="Model\PhongBanModL.cs" />
+    <Compile Include="Model\PhongBanModTr.cs" />
+    <Compile Include="Object\ChucVuObjL.cs" />
+    <Compile Include="Object\ChucVuObjTr.cs" />
+    <Compile Include="Object\HeSoLuong.cs" />
+    <Compile Include="Object\HopDongObj.cs" />
+    <Compile Include="Object\HopDongObjTr.cs" />
+    <Compile Include="Object\KhenThuongObjTH.cs" />
+    <Compile Include="Object\KyLuatObjTH.cs" />
+    <Compile Include="Object\NhanVienObjTr.cs" />
+    <Compile Include="Object\PhongBanObjL.cs" />
+    <Compile Include="Object\PhongBanObjTr.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\BangLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\BangLuong.Designer.cs">
+      <DependentUpon>BangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChucVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ChucVu.Designer.cs">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\KhenThuongTh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\KhenThuongTh.Designer.cs">
+      <DependentUpon>KhenThuongTh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\KyLuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\KyLuat.Designer.cs">
+      <DependentUpon>KyLuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\PhongBan.Designer.cs">
+      <DependentUpon>PhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCHeSoLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCHeSoLuong.Designer.cs">
+      <DependentUpon>UCHeSoLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCHopDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCHopDong.Designer.cs">
+      <DependentUpon>UCHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UcNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UcNhanVien.Designer.cs">
+      <DependentUpon>UcNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\BangLuong.resx">
+      <DependentUpon>BangLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ChucVu.resx">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\KhenThuongTh.resx">
+      <DependentUpon>KhenThuongTh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\KyLuat.resx">
+      <DependentUpon>KyLuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PhongBan.resx">
+      <DependentUpon>PhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCHeSoLuong.resx">
+      <DependentUpon>UCHeSoLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCHopDong.resx">
+      <DependentUpon>UCHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UcNhanVien.resx">
+      <DependentUpon>UcNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Worker Male-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Post Office-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contract Job-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Helping Hand-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payroll-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Receive Cash-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No Cash-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aim-970.jpeg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

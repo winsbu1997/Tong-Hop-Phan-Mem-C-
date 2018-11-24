@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RMSetup", "RMSetup\RMSetup.vdproj", "{9F8265D5-1DBF-4C4F-A61E-F85485B52B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhaHang", "QuanLyNhaHang\QuanLyNhaHang.csproj", "{E6D610FC-787E-4327-9517-EC38FBAC68E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F8265D5-1DBF-4C4F-A61E-F85485B52B8C}.Debug|Any CPU.ActiveCfg = Debug
+		{9F8265D5-1DBF-4C4F-A61E-F85485B52B8C}.Release|Any CPU.ActiveCfg = Release
+		{E6D610FC-787E-4327-9517-EC38FBAC68E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D610FC-787E-4327-9517-EC38FBAC68E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D610FC-787E-4327-9517-EC38FBAC68E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D610FC-787E-4327-9517-EC38FBAC68E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

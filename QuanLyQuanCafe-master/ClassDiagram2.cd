@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyQuanCafe.DATA.BANAN">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAASAAAAAAAAAAAABAAAACAAQAAAAA=</HashCode>
+      <FileName>DATA\BANAN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.CHITIETBAN">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAABAAEAAABAAgAEAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DATA\CHITIETBAN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.CHITIETNHAP">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAQCAAABAAAAEAAAAAAAAAAAEAIAAAAAA=</HashCode>
+      <FileName>DATA\CHITIETNHAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.HOADONBAN">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAABAAQEAACAAAAAAAAAAAAEAAAAACAAAAAAA=</HashCode>
+      <FileName>DATA\HOADONBAN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.HOADONNHAP">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAFAAQAAAAAAAAAgAAIAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>DATA\HOADONNHAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.KHOHANG">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAGAAAgAAAABAAAAEAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DATA\KHOHANG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.MATHANG">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQACAQABAAAAAAAAAAAgACAAACAAAAAAA=</HashCode>
+      <FileName>DATA\MATHANG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyQuanCafe.DATA.NHANVIEN">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgQAAAAABAAAAAAAAAADAAAAAIAAAAAAA=</HashCode>
+      <FileName>DATA\NHANVIEN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
